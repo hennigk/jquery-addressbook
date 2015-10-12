@@ -59,6 +59,14 @@ li {
     float: left;
     margin-right: 10%;
 }
+
+.entryHeader{
+    font-weight: bold;
+}
+
+.entryHeader li{
+    font-weight: normal;
+}
 // Or selectively include components
 // @import
 //   "foundation/components/accordion",

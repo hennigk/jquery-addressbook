@@ -64,7 +64,7 @@ function displayEntry(id) {
             $app.find('#contact').append('<li>' + "First Name: " + entryInfo[0].firstName + '</li>');
             $app.find('#contact').append('<li>' + "Lirst Name: " + entryInfo[0].lastName + '</li>');
             $app.find('#contact').append('<li>' + "Birthday: " + entryInfo[0].birthday + '</li>');
-            $app.find('#contact').append('<ul id="addresses">' + "address(es): " + '</ul>');
+            $app.find('#contact').append('<ul class="entryHeader" id="addresses">' + "address(es): " + '</ul>');
             entryInfo[0].addresses.forEach(function(ad, ind) {
 
                 $app.find('#addresses').append('<li>  Address #' + ind + 1 + '</li>');
@@ -77,7 +77,7 @@ function displayEntry(id) {
                 $app.find('#addresses').append('<li>' + "country :" + ad.country + '</li>');
                 $app.find('#addresses').append('<li>' + "type :" + ad.type + '</li>');
             });
-            $app.find('#contact').append('<ul id="phones">' + "phone(s): " + '</ul>');
+            $app.find('#contact').append('<ul class="entryHeader" id="phones">' + "phone(s): " + '</ul>');
 
             entryInfo[0].phones.forEach(function(ph, ind) {
                 $app.find('#phones').append('<li>  Phone #' + ind + 1 + '</li>');
@@ -87,7 +87,7 @@ function displayEntry(id) {
                 $app.find('#phones').append('<li>' + "Phone Type :" + ph.phoneType + '</li>');
             });
 
-            $app.find('#contact').append('<ul id="emais">' + "email(s): " + '</ul>');
+            $app.find('#contact').append('<ul class="entryHeader" id="emails">' + "email(s): " + '</ul>');
             entryInfo[0].emails.forEach(function(em, ind) {
                 $app.find('#emails').append('<li>  Email #' + ind + 1 + '</li>');
                 $app.find('#emails').append('<li>' + "Email Address :" + em.email + '</li>');

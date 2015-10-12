@@ -12,8 +12,8 @@ Error: File to import not found or unreadable: foundation/functions.
 59:     float: left;
 60:     margin-right: 10%;
 61: }
-62: // Or selectively include components
-63: // @import
+62: 
+63: .entryHeader{
 
 Backtrace:
 /home/ubuntu/workspace/scss/_settings.scss:58
@@ -75,4 +75,4 @@ Backtrace:
 body:before {
   white-space: pre;
   font-family: monospace;
-  content: "Error: File to import not found or unreadable: foundation/functions.\A         on line 58 of /home/ubuntu/workspace/scss/_settings.scss\A         from line 1 of /home/ubuntu/workspace/scss/app.scss\A \A 53: #back{\A 54:     margin-left: auto;\A 55:     margin-right: auto;\A 56: }\A 57: \A 58: #prev{\A 59:     float: left;\A 60:     margin-right: 10%;\A 61: }\A 62: // Or selectively include components\A 63: // @import"; }
+  content: "Error: File to import not found or unreadable: foundation/functions.\A         on line 58 of /home/ubuntu/workspace/scss/_settings.scss\A         from line 1 of /home/ubuntu/workspace/scss/app.scss\A \A 53: #back{\A 54:     margin-left: auto;\A 55:     margin-right: auto;\A 56: }\A 57: \A 58: #prev{\A 59:     float: left;\A 60:     margin-right: 10%;\A 61: }\A 62: \A 63: .entryHeader{"; }
