@@ -207,8 +207,8 @@ function AddressBookEntriesButtons(addressBookId) {
             var offset = 0;
             $buttons.html('');
             $buttons.append('<button id="prev">Previous 5 Entries</button>');
-            $buttons.append('<button id="back">Back</button>');
             $buttons.append('<button id="next">Next 5 Entries</button>');
+            $buttons.append('<button id="back">Back</button>');
             if (offset + 5 >= limit) {
                 $("#next").prop({
                     disabled: true
@@ -274,11 +274,7 @@ module.exports = {
     EntryDoneEditButton: EntryDoneEditButton,
     AddressBooksListButtons: AddressBooksListButtons,
     AddressBookEntriesButtons: AddressBookEntriesButtons,
-    entryButtons: entryButtons
-}
-
-
-module.exports = {
+    entryButtons: entryButtons,
     displayAddressBooksList: displayAddressBooksList,
     displayAddressBookEntries: displayAddressBookEntries,
     displayEntry: displayEntry,

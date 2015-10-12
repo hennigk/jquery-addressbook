@@ -3,17 +3,17 @@ Error: File to import not found or unreadable: foundation/functions.
         on line 58 of /home/ubuntu/workspace/scss/_settings.scss
         from line 1 of /home/ubuntu/workspace/scss/app.scss
 
-53: //   "foundation/components/breadcrumbs",
-54: //   "foundation/components/button-groups",
-55: //   "foundation/components/buttons",
-56: //   "foundation/components/clearing",
-57: //   "foundation/components/dropdown",
-58: //   "foundation/components/dropdown-buttons",
-59: //   "foundation/components/flex-video",
-60: //   "foundation/components/forms",
-61: //   "foundation/components/grid",
-62: //   "foundation/components/inline-lists",
-63: //   "foundation/components/joyride",
+53: #back{
+54:     margin-left: auto;
+55:     margin-right: auto;
+56: }
+57: 
+58: #prev{
+59:     float: left;
+60:     margin-right: 10%;
+61: }
+62: // Or selectively include components
+63: // @import
 
 Backtrace:
 /home/ubuntu/workspace/scss/_settings.scss:58
@@ -75,4 +75,4 @@ Backtrace:
 body:before {
   white-space: pre;
   font-family: monospace;
-  content: "Error: File to import not found or unreadable: foundation/functions.\A         on line 58 of /home/ubuntu/workspace/scss/_settings.scss\A         from line 1 of /home/ubuntu/workspace/scss/app.scss\A \A 53: //   \"foundation/components/breadcrumbs\",\A 54: //   \"foundation/components/button-groups\",\A 55: //   \"foundation/components/buttons\",\A 56: //   \"foundation/components/clearing\",\A 57: //   \"foundation/components/dropdown\",\A 58: //   \"foundation/components/dropdown-buttons\",\A 59: //   \"foundation/components/flex-video\",\A 60: //   \"foundation/components/forms\",\A 61: //   \"foundation/components/grid\",\A 62: //   \"foundation/components/inline-lists\",\A 63: //   \"foundation/components/joyride\","; }
+  content: "Error: File to import not found or unreadable: foundation/functions.\A         on line 58 of /home/ubuntu/workspace/scss/_settings.scss\A         from line 1 of /home/ubuntu/workspace/scss/app.scss\A \A 53: #back{\A 54:     margin-left: auto;\A 55:     margin-right: auto;\A 56: }\A 57: \A 58: #prev{\A 59:     float: left;\A 60:     margin-right: 10%;\A 61: }\A 62: // Or selectively include components\A 63: // @import"; }
